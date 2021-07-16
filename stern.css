@@ -1,0 +1,43 @@
+*{box-sizing: border-box;}
+
+body{
+height: 100%;
+background-color: rgb(128, 165, 177);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+#conteiner{
+
+    
+    display: flex;
+    padding: 30px 40px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+}
+
+#conteiner i{
+    font-size: 40px;
+}
+
+button{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+
+    margin: 20px;
+    padding: 20px 30px;
+    background-color: rgb(218, 98, 12);
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color:  rgb(247, 119, 28);
+    
+    }
+    
