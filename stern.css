@@ -40,4 +40,10 @@ button:hover{
     background-color:  rgb(247, 119, 28);
     
     }
-    
+
+    #conteiner>.sternAktiv, #conteiner>.sternGeklict{
+        color: rgb(224, 174, 9);
+
+
+    }
+
