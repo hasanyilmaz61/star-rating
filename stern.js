@@ -27,6 +27,22 @@ $(function(){
     });
 
 
+    $("#clikt").click(function(){
+
+        let x= $("#conteiner>i.sternGeklict");
+
+        if(x.length == 0)
+        {
+            alert("Noch kein Stern ausgewählt");
+        }
+        else
+        {
+            $("#ergebnis").text("Sie haben " + x.length + " Sterne gegeben.");
+        }
+
+
+    } );
+
 });
 
    
